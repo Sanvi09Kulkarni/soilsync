@@ -1,0 +1,201 @@
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.heroSectionChild {
+  width: 179px;
+  height: 30px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.underline01Icon {
+  height: 30px;
+  width: 215px;
+  position: absolute;
+  margin: 0 !important;
+  right: -105px;
+  bottom: -16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.soilSync {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 110px;
+  z-index: 2;
+}
+.frameWrapper,
+.underline01Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.underline01Parent {
+  position: relative;
+}
+.frameWrapper {
+  padding: 0 0 var(--padding-mini);
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.beginsToday,
+.tomorrowsHarvest {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.tomorrowsHarvest {
+  color: var(--color-goldenrod);
+  z-index: 2;
+}
+.beginsToday {
+  height: 88px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.blankLine,
+.empoweringFarmersWith,
+.forGenerationsTo {
+  margin: 0;
+}
+.dissuadeEcstaticAndContainer {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+  display: inline-block;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.tryNow {
+  height: 23px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 70px;
+}
+.component11 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base-5) var(--padding-30xl);
+  background-color: var(--color-goldenrod);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.component11:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.frameParent,
+.heroSection,
+.heroSectionInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 730px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.heroSection,
+.heroSectionInner {
+  box-sizing: border-box;
+}
+.heroSectionInner {
+  width: 1210px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.heroSection {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-210xl);
+  position: relative;
+  gap: var(--gap-161xl);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-livvic);
+}
+@media screen and (max-width: 1350px) {
+  .heroSection {
+    gap: var(--gap-71xl);
+    padding-bottom: var(--padding-130xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .beginsToday,
+  .tomorrowsHarvest {
+    font-size: var(--font-size-37xl);
+  }
+  .heroSection {
+    gap: var(--gap-26xl);
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .soilSync {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .beginsToday,
+  .tomorrowsHarvest {
+    font-size: var(--font-size-23xl);
+  }
+  .dissuadeEcstaticAndContainer {
+    font-size: var(--menu-menu-1-bold-size);
+  }
+}

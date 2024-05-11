@@ -1,0 +1,248 @@
+.style {
+  width: 20px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs) 0 0 var(--br-8xs);
+  background-color: var(--color-goldenrod);
+  z-index: 3;
+}
+.styleWrapper {
+  height: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-354xl) 0 0;
+  box-sizing: border-box;
+}
+.image6Icon,
+.successfullyProjectCompletedChild {
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+}
+.image6Icon {
+  height: 651px;
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 4;
+}
+.successfullyProjectCompletedChild {
+  height: 140px;
+  width: 428px;
+  background-color: var(--color-darkolivegreen-100);
+  display: none;
+}
+.icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.iconWrapper {
+  height: 78px;
+  width: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.successfullyProjectCompletedInner {
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) var(--padding-12xs) 0;
+  box-sizing: border-box;
+}
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 1;
+}
+.successfullyProjectCompleted1 {
+  position: relative;
+  font-size: var(--menu-menu-1-bold-size);
+  font-weight: 500;
+  font-family: var(--font-livvic);
+  white-space: nowrap;
+  z-index: 1;
+}
+.parent,
+.successfullyProjectCompleted {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.successfullyProjectCompleted {
+  margin: 0 !important;
+  position: absolute;
+  bottom: -59px;
+  left: 59px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkolivegreen-100);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-4xl) var(--padding-15xl) var(--padding-11xl)
+    var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 5;
+}
+.image6Parent,
+.popularFoodsAndVegetablesInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image6Parent {
+  width: 564px;
+  flex-direction: row;
+  position: relative;
+}
+.popularFoodsAndVegetablesInner {
+  width: 716px;
+  flex-direction: column;
+}
+.enterDetailsTo,
+.getYourSoil {
+  position: relative;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  z-index: 3;
+}
+.getYourSoil {
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  text-transform: uppercase;
+  font-family: var(--font-poppins);
+}
+.enterDetailsTo {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--font-size-31xl);
+  font-weight: 700;
+  font-family: var(--font-livvic);
+}
+.getYourSoilAnalysisParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.frameWrapper,
+.getYourSoilAnalysisParent,
+.textInputParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 731px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) var(--padding-8xs);
+  box-sizing: border-box;
+}
+.textInputParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.frameContainer,
+.frameParent,
+.popularFoodsAndVegetables {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  margin: 0;
+  width: 764px;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+}
+.popularFoodsAndVegetables {
+  align-self: stretch;
+  background-color: var(--color-cornsilk);
+  flex-direction: row;
+  padding: var(--padding-169xl) var(--padding-147xl) var(--padding-200xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1800px) {
+  .popularFoodsAndVegetables {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .popularFoodsAndVegetables {
+    padding: var(--padding-103xl) var(--padding-64xl) var(--padding-123xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .styleWrapper {
+    padding-top: var(--padding-223xl);
+    box-sizing: border-box;
+  }
+  .div {
+    font-size: var(--font-size-13xl);
+  }
+  .successfullyProjectCompleted {
+    flex-wrap: wrap;
+  }
+  .enterDetailsTo {
+    font-size: var(--font-size-21xl);
+  }
+  .popularFoodsAndVegetables {
+    padding: var(--padding-60xl) var(--padding-22xl) var(--padding-73xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+  .getYourSoil {
+    font-size: var(--menu-menu-1-bold-size);
+    line-height: 24px;
+  }
+  .enterDetailsTo {
+    font-size: var(--font-size-11xl);
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+}

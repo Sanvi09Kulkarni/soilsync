@@ -1,0 +1,253 @@
+.style,
+.style1 {
+  position: relative;
+}
+.style {
+  height: 497px;
+  width: 658px;
+  background-color: var(--color-darkslategray-200);
+  display: none;
+  max-width: 100%;
+}
+.style1 {
+  width: 20px;
+  flex: 1;
+  border-radius: var(--br-8xs) 0 0 var(--br-8xs);
+  background-color: var(--color-goldenrod);
+  z-index: 1;
+}
+.singleSelect {
+  height: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-354xl) 0 0;
+  box-sizing: border-box;
+}
+.image6Icon {
+  width: 564px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.errorHandler {
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutUs,
+.whyChooseSoil {
+  position: relative;
+  display: inline-block;
+}
+.aboutUs {
+  line-height: 30px;
+  min-width: 90px;
+}
+.whyChooseSoil {
+  margin: 0;
+  width: 569px;
+  font-size: var(--font-size-31xl);
+  font-weight: 700;
+  font-family: var(--font-livvic);
+  max-width: 100%;
+}
+.title {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-family: var(--font-poppins);
+}
+.yourzameenkasaathi {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.dissuadeEcstaticAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--font-poppins);
+  color: var(--light-text-link-color-white);
+}
+.dataComparator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-11xl);
+  color: var(--color-goldenrod);
+}
+.materialSymbolscheckCircleIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sayGoodbyeTo {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.dataTransformer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.materialSymbolscheckCircleIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.weDeliverPrecise {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.dataTransformer1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.materialSymbolscheckCircleIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.soilSyncContributes {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.dataTransformer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.dataSeparator {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.dataSeparator,
+.ourIntroduction,
+.temporaryHolder,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-36xl);
+}
+.ourIntroduction,
+.temporaryHolder {
+  box-sizing: border-box;
+}
+.temporaryHolder {
+  width: 749px;
+  flex-direction: column;
+  padding: var(--padding-52xl) 0 0;
+}
+.ourIntroduction {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-200);
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-201xl) var(--padding-140xl);
+  row-gap: 20px;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-livvic);
+}
+@media screen and (max-width: 1800px) {
+  .ourIntroduction {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .ourIntroduction {
+    padding-left: var(--padding-91xl);
+    padding-right: var(--padding-91xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .singleSelect {
+    padding-top: var(--padding-223xl);
+    box-sizing: border-box;
+  }
+  .whyChooseSoil {
+    font-size: var(--font-size-21xl);
+  }
+  .yourzameenkasaathi {
+    font-size: var(--font-size-5xl);
+  }
+  .text {
+    gap: var(--gap-8xl);
+  }
+  .temporaryHolder {
+    padding-top: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+  .ourIntroduction {
+    padding: var(--padding-46xl) var(--padding-36xl) var(--padding-84xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs {
+    font-size: var(--menu-menu-1-bold-size);
+    line-height: 24px;
+  }
+  .whyChooseSoil {
+    font-size: var(--font-size-11xl);
+  }
+  .yourzameenkasaathi {
+    font-size: var(--font-size-lg);
+  }
+  .sayGoodbyeTo,
+  .soilSyncContributes,
+  .weDeliverPrecise {
+    font-size: var(--menu-menu-1-bold-size);
+    line-height: 22px;
+  }
+  .ourIntroduction {
+    padding: var(--padding-23xl) var(--padding-xl) var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}

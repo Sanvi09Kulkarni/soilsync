@@ -1,0 +1,256 @@
+.contactNow {
+  position: relative;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.getInTouch {
+  margin: 0;
+  height: 63px;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-weight: 700;
+  font-family: var(--font-livvic);
+  display: inline-block;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.dissuadeEcstaticAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+}
+.titleDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+}
+.div,
+.phone {
+  position: relative;
+  display: inline-block;
+}
+.phone {
+  line-height: 30px;
+  text-transform: uppercase;
+  min-width: 47px;
+}
+.div {
+  line-height: 27px;
+  font-weight: 500;
+  min-width: 120px;
+  white-space: nowrap;
+}
+.phoneParent,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.wrapper {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-livvic);
+}
+.phoneParent {
+  gap: var(--gap-6xs);
+}
+.email {
+  position: relative;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 39px;
+}
+.helpsoilsynccom {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.emailParent,
+.helpsoilsynccomWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.helpsoilsynccomWrapper {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-livvic);
+}
+.emailParent {
+  gap: var(--gap-6xs);
+}
+.contacts {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-sm);
+}
+.contacts,
+.email1,
+.name,
+.number,
+.subject,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  width: 643px;
+  flex-direction: column;
+  gap: var(--gap-31xl);
+  min-width: 643px;
+  max-width: 100%;
+}
+.email1,
+.name,
+.number,
+.subject {
+  border: 0;
+  background-color: var(--color-darkslategray-200);
+  width: 100%;
+  outline: 0;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  padding: var(--padding-6xl) var(--padding-3xl);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--menu-menu-1-bold-size);
+  color: var(--color-gray-400);
+  max-width: 738.25px;
+}
+.email1,
+.name,
+.number {
+  height: 69px;
+  min-width: 250px;
+}
+.subject {
+  height: 184px;
+}
+.discoverMore {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 19.2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-livvic);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 112px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-30xl);
+  background-color: var(--color-goldenrod);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.nameParent,
+.soilSyncInner,
+.textParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.nameParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 432px;
+}
+.soilSyncInner,
+.textParent {
+  flex-direction: row;
+}
+.textParent {
+  width: 1440px;
+  justify-content: flex-start;
+  gap: var(--gap-114xl);
+}
+.soilSyncInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-93xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .text {
+    flex: 1;
+  }
+  .textParent {
+    flex-wrap: wrap;
+    gap: var(--gap-47xl);
+  }
+}
+@media screen and (max-width: 900px) {
+  .getInTouch {
+    font-size: var(--font-size-21xl);
+  }
+  .titleDescription {
+    gap: var(--gap-3xl);
+  }
+  .text {
+    gap: var(--gap-6xl);
+    min-width: 100%;
+  }
+  .email1,
+  .name,
+  .number,
+  .subject {
+    max-width: 100%;
+  }
+  .nameParent {
+    min-width: 100%;
+  }
+  .textParent {
+    gap: var(--gap-14xl);
+  }
+  .soilSyncInner {
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactNow {
+    font-size: var(--menu-menu-1-bold-size);
+    line-height: 24px;
+  }
+  .getInTouch {
+    font-size: var(--font-size-11xl);
+  }
+  .div,
+  .helpsoilsynccom {
+    font-size: var(--menu-menu-1-bold-size);
+    line-height: 22px;
+  }
+  .textParent {
+    gap: var(--gap-mid);
+  }
+}

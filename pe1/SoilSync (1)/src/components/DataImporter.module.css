@@ -1,0 +1,26 @@
+.dataImporter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-81xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .dataImporter {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .dataImporter {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

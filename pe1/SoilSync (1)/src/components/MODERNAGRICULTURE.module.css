@@ -1,0 +1,374 @@
+.bg {
+  align-self: stretch;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-darkolivegreen-100);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.styleIcon {
+  height: 343px;
+  width: 604px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: -86px;
+  object-fit: contain;
+  z-index: 1;
+}
+.dataManager {
+  position: absolute;
+  top: 0;
+  left: 31px;
+  border-radius: 0 0 0 var(--br-3xs);
+  background-color: var(--color-darkolivegreen-200);
+  width: 174px;
+  height: 176px;
+}
+.dataMonitor,
+.style {
+  position: absolute;
+  z-index: 1;
+}
+.dataMonitor {
+  top: 128px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 79.4px;
+  height: 80px;
+}
+.style {
+  height: 208px;
+  width: 205px;
+  margin: 0 !important;
+  top: -2px;
+  left: -31px;
+}
+.modernAgriculture1 {
+  position: relative;
+  line-height: 30px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.realTimeUsage {
+  margin: 0;
+  height: 63px;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-weight: 700;
+  font-family: var(--font-livvic);
+  display: inline-block;
+  z-index: 1;
+}
+.modernAgricultureParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.farmers {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.icon {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  z-index: 1;
+}
+.dissuadeEcstaticAnd {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  z-index: 1;
+}
+.dataPool,
+.dataStack {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataPool {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 396px;
+}
+.dataStack {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.dividor,
+.icon1 {
+  position: relative;
+}
+.dividor {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.icon1 {
+  width: 90px;
+  height: 90px;
+  z-index: 2;
+}
+.dataGraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl-5) 0 0;
+}
+.agronomists {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.dissuadeEcstaticAnd1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--font-poppins);
+  z-index: 2;
+}
+.dataDashboard,
+.dataMap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataDashboard {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  min-width: 396px;
+}
+.dataMap {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-livvic);
+}
+.dividor1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.dataAsynch {
+  position: absolute;
+  top: 27.5px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl-7);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+}
+.icon2 {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  z-index: 2;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl-5) 0 0;
+}
+.environmentalAgencies {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.dissuadeEcstaticAnd2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--font-poppins);
+  z-index: 2;
+}
+.environmentalAgenciesParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.environmentalAgenciesParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  min-width: 396px;
+}
+.frameParent {
+  position: absolute;
+  top: 430px;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.dataFission {
+  align-self: stretch;
+  height: 575px;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-livvic);
+}
+.dataBackup,
+.dataSecurity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataBackup {
+  align-self: stretch;
+  gap: var(--gap-49xl);
+}
+.dataSecurity {
+  width: 730px;
+  padding: var(--padding-61xl) 0 0;
+  box-sizing: border-box;
+  min-width: 730px;
+}
+.image20Icon,
+.modernAgriculture {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.image20Icon {
+  height: 926px;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 547px;
+  z-index: 1;
+}
+.modernAgriculture {
+  background-color: var(--color-darkolivegreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-229xl);
+  box-sizing: border-box;
+  gap: var(--gap-82xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1800px) {
+  .dataSecurity {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .dataSecurity {
+    min-width: 100%;
+  }
+  .modernAgriculture {
+    flex-wrap: wrap;
+    gap: var(--gap-31xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .realTimeUsage {
+    font-size: var(--font-size-21xl);
+  }
+  .dataPool {
+    min-width: 100%;
+  }
+  .dataStack {
+    flex-wrap: wrap;
+  }
+  .dataDashboard {
+    min-width: 100%;
+  }
+  .dataMap {
+    flex-wrap: wrap;
+  }
+  .dataAsynch {
+    gap: var(--gap-mid);
+  }
+  .environmentalAgenciesParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .dataFission {
+    height: auto;
+    min-height: 575;
+  }
+  .dataBackup {
+    gap: var(--gap-15xl);
+  }
+  .dataSecurity {
+    padding-top: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .image20Icon {
+    min-width: 100%;
+  }
+  .modernAgriculture {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .modernAgriculture1 {
+    font-size: var(--menu-menu-1-bold-size);
+    line-height: 24px;
+  }
+  .realTimeUsage {
+    font-size: var(--font-size-11xl);
+  }
+  .agronomists,
+  .environmentalAgencies,
+  .farmers {
+    font-size: var(--font-size-lgi);
+  }
+  .dataBackup {
+    gap: var(--gap-mid);
+  }
+  .dataSecurity {
+    padding-top: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

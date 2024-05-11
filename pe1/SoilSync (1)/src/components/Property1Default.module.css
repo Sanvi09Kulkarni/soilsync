@@ -1,0 +1,29 @@
+.clickHere {
+  position: relative;
+  letter-spacing: 0.23em;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.button {
+  width: 230px;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-other-color-error);
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.property1default {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  text-align: center;
+  font-size: var(--menu-menu-1-bold-size);
+  color: var(--light-text-link-color-white);
+  font-family: var(--font-poppins);
+}

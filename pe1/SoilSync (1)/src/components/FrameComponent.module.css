@@ -1,0 +1,118 @@
+.dividor {
+  position: absolute;
+  top: 313px;
+  left: 0;
+  border-top: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 1921px;
+  height: 1px;
+}
+.arrayElement,
+.styleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.styleIcon {
+  object-fit: cover;
+}
+.arrayElement {
+  background: linear-gradient(
+    91.96deg,
+    rgba(248, 204, 119, 0.8),
+    rgba(248, 204, 119, 0.16)
+  );
+  z-index: 1;
+}
+.buildingAGreener {
+  margin: 0;
+  position: absolute;
+  top: 82px;
+  left: 237px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 1019px;
+  z-index: 2;
+}
+.weAreLeader {
+  align-self: stretch;
+  height: 313px;
+  position: relative;
+}
+.copyrightSoilsyncAll {
+  height: 23px;
+  line-height: 23.2px;
+}
+.copyrightSoilsyncAll,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  display: inline-block;
+}
+.termsConditions {
+  height: 23px;
+}
+.privacyPolicy {
+  line-height: 23.2px;
+  min-width: 105px;
+}
+.stackTop,
+.treeLeaf {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.stackTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.treeLeaf {
+  width: 1411px;
+  justify-content: space-between;
+}
+.graphVertex,
+.treeLeaf,
+.weAreLeaderParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.graphVertex {
+  width: 1891px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--light-text-link-color-white);
+}
+.weAreLeaderParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 900px) {
+  .buildingAGreener {
+    font-size: var(--font-size-21xl);
+  }
+  .treeLeaf {
+    flex-wrap: wrap;
+  }
+  .weAreLeaderParent {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .buildingAGreener {
+    font-size: var(--font-size-11xl);
+  }
+}
